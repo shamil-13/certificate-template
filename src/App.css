@@ -1,0 +1,215 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+.container{
+  max-width: 800px;
+  width:90vw;
+  background-color: white;
+  padding:20px
+}
+
+.inner-body{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid gold;
+  padding:20px
+}
+
+.icon{
+  width:150px;
+  height:150px;
+  background-color: gold;
+  border-radius: 100%;
+}
+
+.title{
+  font-size:50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  color:#000;
+  font-weight: 400;
+  margin: 0;
+}
+
+.sub-title{
+  font-size: 24px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  color:#000;
+  font-weight: 400;
+  margin: 0;
+}
+
+.line{
+  height: 2px;
+  background-color: #000;
+}
+
+.sub-title-2{
+  font-size: 22px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  color:#000;
+  font-weight: 400;
+  margin: 0;
+  margin-top:10%
+}
+
+.name{
+  font-size:60px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  color:#000;
+  font-weight: 400;
+  margin: 10% 0;
+}
+
+.content{
+  font-size:18px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#000;
+  font-weight: 400;
+  margin: 0;
+}
+
+.box-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.box{
+  width: 20%;
+}
+
+.official{
+  font-size:14px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#000;
+  font-weight: 600;
+  margin: 0;
+  text-align: left;
+}
+.designation{
+  font-size:12px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#000;
+  font-weight: 400;
+  margin: 0;
+  text-align: left;
+  margin-bottom: 30px;
+
+}
+
+.date{
+  font-size:12px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#000;
+  font-weight: 400;
+  margin: 0;
+  text-align: left;
+  margin-top:4px
+}
+
+.logo{
+  margin-top: 20px;
+  width: 150px;
+  height:80px;
+  background-color: gold;
+}
+
+
+@media (max-width: 780px) {
+  .icon{
+    width: 120px;
+    height: 120px;
+  }
+  .title{
+    font-size: 35px;
+  }
+  .sub-title{
+    font-size: 16px;
+  }
+  .sub-title-2{
+    font-size: 16px;
+  } 
+  .name{
+    font-size: 38px;
+  }
+
+  .content{
+    font-size: 14px;
+  }
+
+  .box{
+    width: 30%;
+  }
+  .official{
+    font-size: 10px;
+
+  }
+  .designation{
+    font-size: 10px;
+  }
+  .date{
+    font-size: 10px;
+  }
+
+  .logo{
+    width: 120px;
+    height:60px
+  }
+}
+
+@media (max-width: 480px) {
+  .icon{
+    width: 80px;
+    height: 80px;
+  }
+  .content{
+    font-size: 10px;
+  }
+  .sub-title{
+    font-size: 12px;
+  }
+  .sub-title-2{
+    font-size: 12px;
+  } 
+  .title{
+    font-size:26px
+  }
+  .name{
+    font-size: 30px;
+  }
+
+  .official{
+    font-size: 9px;
+
+  }
+  .designation{
+    font-size: 9px;
+  }
+  .date{
+    font-size: 9px;
+  }
+}
